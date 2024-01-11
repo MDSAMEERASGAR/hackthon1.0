@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+}
+/* create a navigation bar */
+nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 3;
+   
+}
+
+#navbar {
+    height: 55px;
+    background-color: hwb(0 21% 77%);
+    padding-top: 15px;
+    padding-left: 50px;
+   
+     
+
+}
+.mytunes{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    /* border: 2px solid blue; */
+    margin-right: 100px;
+    padding-top: 5px;
+    text-align: center;
+    
+        
+} 
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
+.mytunes:hover{
+    background-color: rgb(136, 134, 134);
+    border-radius: 50px;
+        
+}
+/* create a contain */
+.text{
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    left: 0;
+
+    background-image: url(./guitar2.0.jpg);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+/* create a second page */
+.secondpage{
+    background-color: rgb(37, 37, 41);
+    width: 100vw;
+    height: 120vh;
+}
+.musiclogo{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+
+}
+.clik{
+    cursor: pointer
+}
+
+.profile{
+    
+    background-image: url(./Screenshot\ 2023-09-06\ 160059.jpg);
+    background-size: 100% 100%;
+    width: 900px;
+    height: 500px;
+    margin-left: 600px;
+}
+/* create a third page */
+.thirdpage{
+    width: 100vw;
+    height: 125vh;
+}
+.thirdtext{
+    padding-top: 70px;
+    padding-left: 550px;
+    color: #333333;
+}
+.thirdtext p{
+    width: 1200px;
+    font-size: 21px;
+    text-align: center;
+    margin-left: -130px;
+    color: #333333;
+    
+}
+.read{
+    margin-left: 980px;
+    margin-top: 50px;
+    width: 120px;
+    height: 70px;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.read button{
+    width: 120px;
+    height: 70px;
+    font-size: 18px;
+    background-color:#103063 ;
+    color: white;
+    cursor: pointer;
+}
+.read:hover button{
+    background-color: hsl(217, 66%, 38%);
+}
+.tabimage img{
+   width: 800px;
+   height: 650px;
+}
+.tabimage{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+/* create a fourth page  */
+.fourthpage{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(./galaxy.jpg);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+}
+.space{
+    padding-top: 150px;
+}
+.space p{
+    width: 1200px;
+    font-size: 23px;
+    margin-left: 470px;
+
+}
+/* create a fifth page  */
+.fifthpage{
+    width: 100vw;
+    height: 35vh;
+}
+.fifthpage .gift{
+    width: 600px;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+.fifthpage img{
+    width: 400px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 400px;
+    
+}
+.gift .redeem{
+    cursor: pointer;
+}
+.redeem:hover{
+    background-color: #333333;
+    display: inline;
+    color: white;
+}
+/* create a footer */
+.footer{
+    width: 100vw;
+    height: 40vh;
+    background-color:#333333 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.one h2{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 0.3px;
+    left: 0;
+    color: hsl(0, 6%, 58%);
+    
+}
+.one{
+    color:#d8c6c6;
+    padding-top:20px;
+    font-size:15px ;
+    
+}
